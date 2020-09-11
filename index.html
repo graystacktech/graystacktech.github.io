@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="skeleton.css">
-    <link rel="stylesheet" href="custom.css">
+    <title>Graystack</title>
+    <link rel="stylesheet" href="css/tailwind.css">
   </head>
-  <body>
-    <div class="container">
-      <section class="header">
-        <h2>We develop great apps with</h2>
-        <h2 id=typed></h2>
-      </section>
+  <body class="bg-gray-900">
+    <header class="flex justify-between">
+      <div>
+        <img class="h-24 px-6 py-5" src="img/logo.png">
+      </div>
+      <nav>
+        <a class="text-gray-500 inline-block p-2 my-8 mr-8 font-semibold uppercase tracking-wide text-sm rounded-lg hover:text-gray-300 hover:shadow-outline focus:outline-none focus:shadow-outline" href="#">Portfolio</a>
+        <a class="text-gray-500 inline-block p-2 my-8 mr-8 font-semibold uppercase tracking-wide text-sm rounded-lg hover:text-gray-300 hover:shadow-outline focus:outline-none focus:shadow-outline" href="#">Contact</a>
+        <a class="text-gray-500 inline-block p-2 my-8 mr-8 font-semibold uppercase tracking-wide text-sm rounded-lg hover:text-gray-300 hover:shadow-outline focus:outline-none focus:shadow-outline" href="#">About Us</a>
+      </nav>
+    </header>
+    <div class="flex justify-center">
+      <h1 class="py-32 text-gray-500 text-4xl font-medium">
+        We create
+        <span class="text-gray-300 font-semibold border-2 border-gray-300 border-opacity-25 rounded-lg pb-1 px-2">simple</span>
+        yet
+        <span class="text-gray-300 font-semibold border-2 border-gray-300 border-opacity-25 rounded-lg pb-1 px-2">elegant</span>
+        software
+      </h1>
     </div>
-    <script src="main.js"></script>
   </body>
 </html>
